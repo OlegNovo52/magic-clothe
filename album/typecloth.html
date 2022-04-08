@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Pricing example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/pricing/">
+
+    
+
+    <!-- Custom styles for this template -->
+    <link href="CSSandJS/carousel.css" rel="stylesheet">
+
+    <link href="CSSandJS/cover.css" rel="stylesheet">
+
+    <link href="CSSandJS/features.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="CSSandJS/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">О нас</h4>
+          <p class="text-muted">Мы создаем одежду способную заставить работать ваше воображение. Вы вдохновляете нас, мы работаем для вас.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Контакты</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">magicrussianclothes@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home me-2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        <strong>Magic clothes</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <div class="container">
+        <div class="row py-lg-2"></div>
+      <div class="row">
+        <div class="col">
+          <div id="price" class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Цены</h1>
+            <p class="fs-5 text-muted">Выберите подходящий вид одежды или предложите свой вариант. </p>
+          </div>
+
+        <div class="row py-lg-1"></div>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Футболка</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">5900 руб.</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Состав: хлопок</li>
+                    <li>Цена с учетом доставки</li>
+                    <li>Поддержка по эл.почте</li>
+                    <li>Просмотр в личном кабинете</li>
+                  </ul>
+                  <form action="checkout.html">
+                    <button class="w-100 btn btn-lg btn-outline-primary">Перейти к оформлению</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Толстовка</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">9900 руб.</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Состав: хлопок</li>
+                    <li>Цена с учетом доставки</li>
+                    <li>Поддержка по эл.почте</li>
+                    <li>Просмотр в личном кабинете</li>
+                  </ul>
+                  <form action="checkout.html">
+                    <button class="w-100 btn btn-lg btn-outline-primary">Перейти к оформлению</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Ваш вариант</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">от 5900 руб.</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Напишите на нашу почту</li>
+                    <li>Цена с учетом доставки</li>
+                    <li>Поддержка по эл.почте</li>
+                    <li>Просмотр в личном кабинете</li>
+                  </ul>
+                  <form action="support.html">
+                    <button class="w-100 btn btn-lg btn-primary">Наши контакты</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  <h1 id="FAQ" class="visually-hidden">Features examples</h1>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Columns with icons</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </div>
+        <h2>Featured title</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </div>
+        <h2>Featured title</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </div>
+        <h2>Featured title</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#price" class="icon-link">
+          Заказать
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2021 Magic clothe</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="support.html">Support</a></li>
+    </ul>
+  </footer>
+
+
+    <script src="CSSandJS/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
